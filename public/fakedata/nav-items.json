@@ -2,77 +2,17 @@
 	{
 		"id": 1,
 		"name": "Home",
-		"path": "/",
-		"submenu": [
-			{
-				"id": 1,
-				"name": "Home - 01",
-				"img": "/images/header/demo/home-1.webp",
-				"path": "/"
-			},
-			{
-				"id": 2,
-				"name": "Home - 02",
-				"img": "/images/header/demo/home-2.webp",
-				"path": "/home-02"
-			},
-			{
-				"id": 3,
-				"name": "Home - 03",
-				"img": "/images/header/demo/home-3.webp",
-				"path": "/home-03"
-			},
-			{
-				"id": 4,
-				"name": "Home - 04",
-				"img": "/images/header/demo/home-4.webp",
-				"path": "/home-04"
-			},
-			{
-				"id": 5,
-				"name": "Home - 05",
-				"img": "/images/header/demo/home-5.webp",
-				"path": "/home-05"
-			},
-			{
-				"id": 6,
-				"name": "Home - 06",
-				"img": "/images/header/demo/home-6.webp",
-				"path": "/home-06"
-			},
-			{
-				"id": 7,
-				"name": "Home - 07",
-				"img": "/images/header/demo/home-7.webp",
-				"path": "/home-07"
-			},
-
-			{
-				"id": 8,
-				"name": "Home - 08",
-				"img": "/images/header/demo/home-8.webp",
-				"path": "/home-08",
-				"badge": "New"
-			},
-			{
-				"id": 9,
-				"name": "Home - 09",
-				"img": "/images/header/demo/home-9.webp",
-				"path": "/home-09",
-				"badge": "New"
-			},
-			{
-				"id": 10,
-				"name": "Home - 10",
-				"img": "/images/header/demo/home-10.webp",
-				"path": "/home-10",
-				"badge": "New"
-			}
-		]
+		"path": "/"
+	
+	},	{
+		"id": 1,
+		"name": "About us",
+		"path": "/about-us"
+	
 	},
 	{
 		"id": 2,
-		"name": "Pages",
+		"name": "Solutions",
 		"path": "#",
 		"submenu": [
 			{
@@ -176,7 +116,7 @@
 			},
 			{
 				"id": 3,
-				"name": "Shop pages",
+				"name": "Brands",
 				"path": "/shop",
 				"items": [
 					{ "id": 1, "name": "Shop", "path": "/shop", "badge": "HOT" },
@@ -225,44 +165,26 @@
 	},
 	{
 		"id": 3,
-		"name": "Services",
+		"name": "CORP. INFORMATION",
 		"path": "/services",
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Business process optimization",
+				"name": "Customer Stories",
 				"icon": "tji-optimization",
 				"path": "/services/1"
 			},
 			{
 				"id": 2,
-				"name": "Strategic planning & execution",
+				"name": "News & Updates",
 				"icon": "tji-strategic",
 				"path": "/services/2"
 			},
 			{
 				"id": 3,
-				"name": "Leadership executive coaching",
+				"name": "Careers",
 				"icon": "tji-leadership",
 				"path": "/services/3"
-			},
-			{
-				"id": 4,
-				"name": "Legacy leadership institute",
-				"icon": "tji-business",
-				"path": "/services/4"
-			},
-			{
-				"id": 5,
-				"name": "Executive growth solutions",
-				"icon": "tji-executive",
-				"path": "/services/5"
-			},
-			{
-				"id": 6,
-				"name": "Empowered leadership journey",
-				"icon": "tji-process",
-				"path": "/services/1"
 			}
 		]
 	},
