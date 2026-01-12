@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "slug": "ihab-al-khatib",
+    "name": "Ihab Al Khatib",
+    "designation": "Group General Manager - BKGH",
+    "image": "/images/team/team1.jpg",
+    "social": {
+      "facebook": "Ethan Reynolds",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@ethan_reynolds",
+      "twitter_url": "https://x.com",
+      "instagram": "@ethan.reynolds",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Ethan Reynolds",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "abdullateef-al-bahar",
+    "name": "Abdullateef Al-Bahar",
+    "designation": "Group General Manager - FMCG Group",
+    "image": "/images/team/team2.jpg",
+    "social": {
+      "facebook": "Olivia Carter",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@oliviac_consult",
+      "twitter_url": "https://x.com",
+      "instagram": "@olivia.carter",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Olivia Carter",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "dariusz-sobieraj",
+    "name": "Dariusz Sobieraj",
+    "designation": "Group Chief Financial Officer - BKGH",
+    "image": "/images/team/team3.jpg",
+    "social": {
+      "facebook": "Liam Anderson",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@liam_finance",
+      "twitter_url": "https://x.com",
+      "instagram": "@liam.analyst",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Liam Anderson",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "ayman-samir-ayad",
+    "name": "Ayman Samir Ayad",
+    "designation": "Group Head of Risk & Compliance",
+    "image": "/images/team/team4.jpg",
+    "social": {
+      "facebook": "Sophia Martinez",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@sophiam_ops",
+      "twitter_url": "https://x.com",
+      "instagram": "@sophia.consults",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Sophia Martinez",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "nishad-victor",
+    "name": "Nishad Victor",
+    "designation": "General Manager, Shipping",
+    "image": "/images/team/team5.jpg",
+    "social": {
+      "facebook": "Noah Bennett",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@noah_tech",
+      "twitter_url": "https://x.com",
+      "instagram": "@noah.codes",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Noah Bennett",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "rajee-rajab",
+    "name": "Rajee Rajab",
+    "designation": "General Manager - Food Division",
+    "image": "/images/team/team6.jpg",
+    "social": {
+      "facebook": "Ava Mitchell",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@avam_hr",
+      "twitter_url": "https://x.com",
+      "instagram": "@ava.people",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Ava Mitchell",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "arz-naim",
+    "name": "Arz Naim",
+    "designation": "General Manager – HAT",
+    "image": "/images/team/team7.jpg",
+    "social": {
+      "facebook": "James Collins",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@jamesgrowth",
+      "twitter_url": "https://x.com",
+      "instagram": "@james.branding",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "James Collins",
+      "linkedin_url": "https://linkedin.com"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "bassil-hadad",
+    "name": "Bassil Hadad",
+    "designation": "Group Head of Human Resources",
+    "image": "/images/team/team8.jpg",
+    "social": {
+      "facebook": "Isabella Turner",
+      "facebook_url": "https://facebook.com",
+      "twitter": "@isabellat_csm",
+      "twitter_url": "https://x.com",
+      "instagram": "@isabella.turner",
+      "instagram_url": "https://instagram.com",
+      "linkedin": "Isabella Turner",
+      "linkedin_url": "https://linkedin.com"
+    }
+  }
+]
