@@ -2,12 +2,12 @@
 	{
 		"id": 1,
 		"name": "Home",
-		"path": "/"
+		"path": "#"
 	
 	},	{
 		"id": 2,
 		"name": "About us",
-		"path": "/about-us"
+		"path": "#"
 	
 	},
 	{
@@ -20,11 +20,11 @@
 				"name": "Solutions",
 				"path": "#",
 				"items": [
-					{ "id": 1, "name": "Banking, Payment & Identity", "path": "/services", "badge": null },
-					{ "id": 2, "name": "Printing & Imaging Services", "path": "/services", "badge": null },
-					{ "id": 3, "name": "Audio & Visual Services", "path": "/services", "badge": null },
-					{ "id": 4, "name": "IT Infrastructure, Support & Cloud", "path": "/services", "badge": null },
-					{ "id": 5, "name": "Information & Cyber Security", "path": "/services", "badge": null }
+					{ "id": 1, "name": "Banking, Payment & Identity", "path": "#", "badge": null },
+					{ "id": 2, "name": "Printing & Imaging Services", "path": "#", "badge": null },
+					{ "id": 3, "name": "Audio & Visual Services", "path": "#", "badge": null },
+					{ "id": 4, "name": "IT Infrastructure, Support & Cloud", "path": "#", "badge": null },
+					{ "id": 5, "name": "Information & Cyber Security", "path": "#", "badge": null }
 				]
 			}
 		]
@@ -32,30 +32,30 @@
 	{
 		"id": 4,
 		"name": "Brands",
-		"path": "/brand"
+		"path": "#"
 	},
 	{
 		"id": 5,
 		"name": "CORP. INFORMATION",
-		"path": "/services",
+		"path": "#",
 		"submenu": [
 			{
 				"id": 1,
 				"name": "Customer Stories",
 				"icon": "tji-optimization",
-				"path": "/services/1"
+				"path": "#"
 			},
 			{
 				"id": 2,
 				"name": "News & Updates",
 				"icon": "tji-strategic",
-				"path": "/services/2"
+				"path": "#"
 			},
 			{
 				"id": 3,
 				"name": "Careers",
 				"icon": "tji-leadership",
-				"path": "/services/3"
+				"path": "#"
 			}
 		]
 	},
@@ -63,12 +63,12 @@
 	{
 		"id": 6,
 		"name": "Support",
-		"path": "/support"
+		"path": "#"
 	},
 
 	{
 		"id": 7,
 		"name": "Contact",
-		"path": "/contact"
+		"path": "#"
 	}
 ]
