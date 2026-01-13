@@ -10,7 +10,7 @@ const Footer8 = () => {
 						<div className="col-xl-5 col-lg-4 col-md-6 col-sm-6">
 							<div className="footer-widget">
 								<div className="footer-logo" >
-									<Link href="/">
+									<Link href="#">
 										<Image
 											src="/images/logos/logo.svg"
 											alt="Al Bahar & Partners (BPC)"
@@ -31,22 +31,22 @@ const Footer8 = () => {
 									<h5 className="title">Follow Us:</h5>
 									<ul>
 										<li>
-											<Link href="https://www.linkedin.com/">
+											<Link href="#">
 												<i className="fa-brands fa-linkedin-in"></i>
 											</Link>
 										</li>
 										<li>
-											<Link href="https://x.com/">
+											<Link href="#">
 												<i className="fa-brands fa-twitter"></i>
 											</Link>
 										</li>
 										<li>
-											<Link href="https://www.instagram.com/">
+											<Link href="#">
 												<i className="fa-brands fa-instagram"></i>
 											</Link>
 										</li>
 										<li>
-											<Link href="https://www.youtube.com/">
+											<Link href="#">
 												<i className="fa-brands fa-youtube"></i>
 											</Link>
 										</li>
@@ -62,19 +62,19 @@ const Footer8 = () => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/services/1">Banking, Payment & Identity Solutions</Link>
+											<Link href="#">Banking, Payment & Identity Solutions</Link>
 										</li>
 										<li>
-											<Link href="/services/2">Printing & Imaging Services</Link>
+											<Link href="#">Printing & Imaging Services</Link>
 										</li>
 										<li>
-											<Link href="/services/3">Audio & Visual Services</Link>
+											<Link href="#">Audio & Visual Services</Link>
 										</li>
 										<li>
-											<Link href="/services/4">IT Infrastructure, Support & Cloud</Link>
+											<Link href="#">IT Infrastructure, Support & Cloud</Link>
 										</li>
 										<li>
-											<Link href="/services/5">Information & Cyber Security</Link>
+											<Link href="#">Information & Cyber Security</Link>
 										</li>
 									</ul>
 								</div>
@@ -88,19 +88,19 @@ const Footer8 = () => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/about">About BPC</Link>
+											<Link href="#">About BPC</Link>
 										</li>
 										<li>
-											<Link href="/services">Solutions</Link>
+											<Link href="#">Solutions</Link>
 										</li>
 										<li>
-											<Link href="/portfolios">Case Studies</Link>
+											<Link href="#">Case Studies</Link>
 										</li>
 										<li>
-											<Link href="/blog-grid">Insights & Articles</Link>
+											<Link href="#">Insights & Articles</Link>
 										</li>
 										<li>
-											<Link href="/contact">Support Center</Link>
+											<Link href="#">Support Center</Link>
 										</li>
 									</ul>
 								</div>
@@ -115,13 +115,13 @@ const Footer8 = () => {
 									<span>Head Office – Kuwait</span>
 									<p>Al Bahar & Partners (BPC)</p>
 									<p>Shuwaikh / Kuwait City</p>
-									<p><Link href="tel:+96522222222">+965 222 222 22</Link></p>
-									<p><Link href="mailto:info@albaharandpartners.com">info@albaharandpartners.com</Link></p>	
+									<p><Link href="#">+965 222 222 22</Link></p>
+									<p><Link href="#">info@albaharandpartners.com</Link></p>	
 								</div>
 								<div className="infos-item">
 									<span>Regional Support</span>
-									<p><Link href="mailto:support@albaharandpartners.com">support@albaharandpartners.com</Link></p>		
-									<p><Link href="tel:+96522222222">+965 222 222 22</Link></p>		
+									<p><Link href="#">support@albaharandpartners.com</Link></p>		
+									<p><Link href="#">+965 222 222 22</Link></p>		
 								</div>
 							</div>
 						</div>
@@ -150,7 +150,7 @@ const Footer8 = () => {
 								<div className="copyright-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Powered by Anathoth</Link>
+											<Link href="#">Powered by Anathoth</Link>
 										</li>
 									</ul>
 								</div>
