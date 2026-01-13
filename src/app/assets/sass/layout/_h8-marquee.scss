@@ -10,7 +10,7 @@
 		.marquee-title {
 			.text {
 				color: var(--tj-color-heading-primary);
-				font-size: 102px;
+				font-size: 72px;
 				line-height: 1.1;
 				font-weight: var(--tj-fw-sbold);
 				font-family: var(--tj-ff-heading);
@@ -27,7 +27,7 @@
 		@media #{$xl, $lg} {
 			.marquee-title {
 				.text {
-					font-size: 85px;
+					font-size: 60px;
 				}
 			}
 			.marquee-icons {
@@ -37,7 +37,7 @@
 		@media #{$md} {
 			.marquee-title {
 				.text {
-					font-size: 75px;
+					font-size: 52px;
 				}
 			}
 			.marquee-icons {
@@ -49,7 +49,7 @@
 			padding-inline-end: 20px;
 			.marquee-title {
 				.text {
-					font-size: 50px;
+					font-size: 36px;
 				}
 			}
 			.marquee-icons {

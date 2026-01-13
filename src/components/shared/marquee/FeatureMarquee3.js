@@ -54,9 +54,7 @@ const FeatureMarquee3 = () => {
 											{title}
 										</div>
 									</div>
-									<div className="marquee-icons">
-										<img src="/images/icons/marquee-icon-2.svg" alt="Icons" />
-									</div>
+								
 								</SwiperSlide>
 						  ))
 						: ""}
