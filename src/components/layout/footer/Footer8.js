@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer8 = () => {
 	return (
@@ -8,9 +9,17 @@ const Footer8 = () => {
 					<div className="row line rg-50">
 						<div className="col-xl-5 col-lg-4 col-md-6 col-sm-6">
 							<div className="footer-widget">
-								<div className="footer-title">
-									<h4 className="title">Al Bahar & Partners (BPC)</h4>
+								<div className="footer-title" >
+									<Link href="/">
+										<Image
+											src="/images/logos/logo.svg"
+											alt="Al Bahar & Partners (BPC)"
+											width={200}
+											height={80}
+										/>
+									</Link>
 								</div>
+							
 								<div className="footer-description" style={{ maxWidth: "100%" }}>
 									<p style={{ maxWidth: "85%", wordWrap: "break-word", lineHeight: "1.6", color: "#a9b0b8" }}>
 										Business Digital Solutions (BDS) delivers secure, scalable technology across
