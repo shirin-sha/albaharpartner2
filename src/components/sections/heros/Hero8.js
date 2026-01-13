@@ -15,7 +15,7 @@ const Hero8 = () => {
 							<div className="slider-content h8-hero-content">
 								<div className="h8-hero-title-wrapper">
 									<h1 className="slider-title h8-hero-title hero-text-anim" style={{ textAlign: "left" }}>
-										INNOVATE. SECURE.<br />
+										INNOVATE. <br />SECURE.<br />
 										SCALE.
 									</h1>
 
