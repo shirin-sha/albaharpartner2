@@ -99,7 +99,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 											<div className="content">
 												<div className="icon">
 													<Image
-														src="/images/shapes/widget-cta-icon.png"
+														src="/images/shapes/solutions logo.svg"
 														alt="image"
 														width={55}
 														height={55}

@@ -58,18 +58,11 @@ const Services8 = () => {
 											src="/images/video/h8-video-img.jpg"
 											alt="post-image"
 										/>
-										<PopupVideo>
-											<Link
-												className="play_btn glightbox video-popup"
-												href="https://www.youtube.com/watch?v=eEzD-Y97ges"
-											>
-												<i className="fa-sharp fa-solid fa-play"></i>
-											</Link>
-										</PopupVideo>
+									
 									</div>
 									<div className="h8-services-left-content">
 										<h2 className="title text-anim">
-											Services Built for Business Success
+											Services Built for <br />Business Success
 										</h2>
 										<div className="wow fadeInUp" data-wow-delay="0.7s">
 											<ButtonPrimary
