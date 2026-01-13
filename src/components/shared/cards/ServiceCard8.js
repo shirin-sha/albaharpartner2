@@ -9,13 +9,13 @@ const ServiceCard8 = ({ service, idx, lastItem }) => {
 			<span className="no">{modifyNumber(idx + 1)}.</span>
 			<div className="content">
 				<h4 className="title">
-					<Link href={`/services/${id}`}>{title}</Link>
+					<Link href={"#"}>{title}</Link>
 				</h4>
 				<div className="desc">
 					{description}
 				</div>
 			</div>
-			<Link className="service_btn icon-btn" href={`/services/${id}`}>
+			<Link className="service_btn icon-btn" href={"#"}>
 				<i className="tji-arrow-right"></i>
 			</Link>
 		</div>

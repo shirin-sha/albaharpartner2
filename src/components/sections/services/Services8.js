@@ -67,7 +67,7 @@ const Services8 = () => {
 										<div className="wow fadeInUp" data-wow-delay="0.7s">
 											<ButtonPrimary
 												text={"View All Services"}
-												url={"/services"}
+												url={"#"}
 												className={"d-none d-lg-inline-flex"}
 											/>
 										</div>
@@ -84,7 +84,7 @@ const Services8 = () => {
 								</div>
 
 								<div className="mobile_btn text-center d-lg-none">
-									<ButtonPrimary text={"View All Services"} url={"/services"} />
+									<ButtonPrimary text={"View All Services"} url={"#"} />
 								</div>
 							</div>
 						</div>

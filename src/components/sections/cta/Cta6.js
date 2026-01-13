@@ -19,7 +19,7 @@ const Cta6 = () => {
 									See how we enable secure digital progress
 								</h2>
 								<div className="desc wow fadeInUp" data-wow-delay="0.5s">
-									<p>
+									<p style={{ color: "#ffffff" }}>
 										Partner-led solutions across banking, identity, infrastructure, and cybersecurity
 										—delivered with structured execution and reliable support.
 									</p>
