@@ -55,7 +55,7 @@ const PricingPlan3 = () => {
 					<div className="row">
 						<div className="col">
 							<div className="h8-price-header">
-								<div className="sec-heading">
+								<div className="sec-heading h8-section-heading style-4">
 									<span
 										className="sub-title wow fadeInUp"
 										data-wow-delay="0.2s"

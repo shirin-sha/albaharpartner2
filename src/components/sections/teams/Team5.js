@@ -12,7 +12,7 @@ const Team5 = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<div className="sec-heading text-center">
+						<div className="sec-heading h8-section-heading text-center style-4">
 							<div className="sec-text">
 								<span className="sub-title wow fadeInUp" data-wow-delay="0.1s">
 								Governance & Leadership
