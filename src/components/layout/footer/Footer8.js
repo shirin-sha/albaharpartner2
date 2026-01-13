@@ -9,7 +9,7 @@ const Footer8 = () => {
 					<div className="row line rg-50">
 						<div className="col-xl-5 col-lg-4 col-md-6 col-sm-6">
 							<div className="footer-widget">
-								<div className="footer-title" >
+								<div className="footer-logo" >
 									<Link href="/">
 										<Image
 											src="/images/logos/logo.svg"

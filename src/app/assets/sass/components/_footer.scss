@@ -295,7 +295,8 @@
 	}
 
 	.footer-logo {
-		max-width: 150px;
+		max-width: 200px;
+		margin-bottom: 40px;
 	}
 	.desc {
 		max-width: 310px;
@@ -304,7 +305,7 @@
 		color: var(--tj-color-common-white-2);
 	}
 	.footer-social {
-		margin-top: 80px;
+		margin-top: 40px;
 		@media #{$md, $sm, $xs} {
 			margin-top: 60px;
 		}
