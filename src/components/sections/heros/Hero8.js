@@ -59,7 +59,7 @@ operations through secure implementation and dependable after-support.
 
 									</p>
 								</div>
-								<div
+								{/* <div
 									className="h8-hero-banner d-none d-md-block wow fadeInUp"
 									data-wow-delay="1s"
 								>
@@ -69,8 +69,8 @@ operations through secure implementation and dependable after-support.
 										width={331}
 										height={221}
 									/>
-								</div>
-								<div
+								</div> */}
+								{/* <div
 									className="h8-hero-banner d-block d-md-none wow fadeInUp"
 									data-wow-delay="2s"
 								>
@@ -80,7 +80,7 @@ operations through secure implementation and dependable after-support.
 										width={402}
 										height={217}
 									/>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

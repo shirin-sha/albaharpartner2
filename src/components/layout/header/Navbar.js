@@ -8,11 +8,12 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 	const makeActiveLink = useActiveLink();
 	const navItems = getNavItems();
 	const homeNav = makeActiveLink(navItems[0]);
-	const pagesNav = makeActiveLink(navItems[1]);
-	const serviceNav = makeActiveLink(navItems[2]);
-	const portfolioNav = makeActiveLink(navItems[3]);
-	const blogNav = makeActiveLink(navItems[4]);
-	const contactNav = makeActiveLink(navItems[5]);
+	const aboutNav = makeActiveLink(navItems[1]);
+	const solutionsNav = makeActiveLink(navItems[2]);
+	const brandNav = makeActiveLink(navItems[3]);
+	const corpInfoNav = makeActiveLink(navItems[4]);
+	const supportNav = makeActiveLink(navItems[5]);
+	const contactNav = makeActiveLink(navItems[6]);
 
 	return (
 		<div
@@ -30,67 +31,29 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 					<Link href={homeNav?.path ? homeNav?.path : "#"}>
 						{homeNav?.name}
 					</Link>
-					<ul className="sub-menu header__mega-menu mega-menu  ">
-						<li>
-							<div className="mega-menu-wrapper">
-								<div className="container-fluid gap-60-25">
-									<div className="row">
-										{homeNav?.submenu?.length
-											? homeNav?.submenu?.map((item, idx) => (
-													<div key={idx} className="col-xl-3 col-lg-3 col-12">
-														<div className="tj-demo-thumb ">
-															<div className="image">
-																<Image
-																	src={
-																		item?.img
-																			? item?.img
-																			: "/images/header/demo/home-1.webp"
-																	}
-																	alt=""
-																	width={570}
-																	height={434}
-																/>
-																{item?.badge ? (
-																	<span className="tj-demo-badge">
-																		{item?.badge}
-																	</span>
-																) : (
-																	""
-																)}
-																<div className="tj-demo-button">
-																	<ButtonPrimary
-																		text={"View demo"}
-																		url={item?.path}
-																		className={"header_btn"}
-																	/>
-																</div>
-															</div>
-															<h6 className="tj-demo-title">
-																<Link href={item?.path ? item?.path : "#"}>
-																	{item?.name}
-																</Link>
-															</h6>
-														</div>
-													</div>
-											  ))
-											: ""}
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
+				
 				</li>
 				<li
 					className={`has-dropdown ${
-						pagesNav?.isActive ? "current-menu-ancestor" : ""
+						aboutNav?.isActive ? "current-menu-ancestor" : ""
 					}`}
 				>
-					<Link href="javascript:void(0)">{pagesNav?.name}</Link>
+					<Link href={aboutNav?.path ? aboutNav?.path : "#"}>
+						{aboutNav?.name}
+					</Link>
+				
+				</li>
+				<li
+					className={`has-dropdown ${
+						solutionsNav?.isActive ? "current-menu-ancestor" : ""
+					}`}
+				>
+					<Link href="javascript:void(0)">{solutionsNav?.name}</Link>
 					<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
 						<li>
 							<div className="mega-menu-wrapper">
-								{pagesNav?.submenu?.length
-									? pagesNav?.submenu?.map((pageItem, idx) => (
+								{solutionsNav?.submenu?.length
+									? solutionsNav?.submenu?.map((pageItem, idx) => (
 											<div key={idx} className="mega-menu-pages-single">
 												<div className="mega-menu-pages-single-inner">
 													<h6 className="mega-menu-title">{pageItem?.name}</h6>
@@ -173,15 +136,15 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 				</li>
 				<li
 					className={`has-dropdown ${
-						serviceNav?.isActive ? "current-menu-ancestor" : ""
+						corpInfoNav?.isActive ? "current-menu-ancestor" : ""
 					}`}
 				>
-					<Link href={serviceNav?.path ? serviceNav?.path : "/"}>
-						{serviceNav?.name}
+					<Link href={corpInfoNav?.path ? corpInfoNav?.path : "/"}>
+						{corpInfoNav?.name}
 					</Link>
 					<ul className="sub-menu  mega-menu-service">
-						{serviceNav?.submenu?.length
-							? serviceNav?.submenu?.map((item, idx) => (
+						{corpInfoNav?.submenu?.length
+							? corpInfoNav?.submenu?.map((item, idx) => (
 									<li key={idx}>
 										<Link
 											className="mega-menu-service-single"
@@ -210,51 +173,17 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 							: ""}
 					</ul>
 				</li>
-				<li
-					className={`has-dropdown ${
-						portfolioNav?.isActive ? "current-menu-ancestor" : ""
-					}`}
-				>
-					<Link href={portfolioNav?.path ? portfolioNav?.path : "#"}>
-						{portfolioNav?.name}
+			
+			
+				<li className={brandNav?.isActive ? "current-menu-ancestor" : ""}>
+					<Link href={brandNav?.path ? brandNav?.path : "#"}>
+						{brandNav?.name ? brandNav?.name : "Brand"}
 					</Link>
-					<ul className="sub-menu">
-						{portfolioNav?.submenu?.length
-							? portfolioNav?.submenu?.map((item, idx) => (
-									<li
-										key={idx}
-										className={item?.isActive ? "current-menu-item" : ""}
-									>
-										<Link href={item?.path ? item?.path : "/portfolios"}>
-											{item?.name ? item?.name : "Portfolio"}
-										</Link>
-									</li>
-							  ))
-							: ""}
-					</ul>
 				</li>
-				<li
-					className={`has-dropdown ${
-						blogNav?.isActive ? "current-menu-ancestor" : ""
-					}`}
-				>
-					<Link href={blogNav?.path ? blogNav?.path : "#"}>
-						{blogNav?.name}
+				<li className={supportNav?.isActive ? "current-menu-ancestor" : ""}>
+					<Link href={supportNav?.path ? supportNav?.path : "#"}>
+						{supportNav?.name ? supportNav?.name : "Support"}
 					</Link>
-					<ul className="sub-menu">
-						{blogNav?.submenu?.length
-							? blogNav?.submenu?.map((item, idx) => (
-									<li
-										key={idx}
-										className={item?.isActive ? "current-menu-item" : ""}
-									>
-										<Link href={item?.path ? item?.path : "/portfolios"}>
-											{item?.name ? item?.name : "Portfolio"}
-										</Link>
-									</li>
-							  ))
-							: ""}
-					</ul>
 				</li>
 				<li className={contactNav?.isActive ? "current-menu-ancestor" : ""}>
 					<Link href={contactNav?.path ? contactNav?.path : "#"}>
