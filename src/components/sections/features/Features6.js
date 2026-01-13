@@ -217,7 +217,7 @@ const Features6 = () => {
 								</p>
 							</div>
 							<div className="wow fadeInUp" data-wow-delay="0.8s">
-								<ButtonPrimary text="Explore More" href="/contact" />
+								<ButtonPrimary text="Explore More" href="#" />
 							</div>
 						</div>
 					</div>

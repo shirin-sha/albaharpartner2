@@ -90,7 +90,7 @@ const Header = ({ headerType, isHeaderTop, topbarType, isStickyHeader }) => {
 										{headerType !== 2 ? (
 											<ButtonPrimary
 												text={"Profile"}
-												url={"/contact"}
+												url={"#"}
 												className={
 													(headerType === 3 ||
 														headerType == 4 ||

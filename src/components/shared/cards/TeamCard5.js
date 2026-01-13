@@ -13,7 +13,7 @@ const TeamCard5 = ({ teamMember }) => {
 			<div className="team-content">
 				<div className="team-text">
 					<h5 className="title">
-						<Link href={`/team/${id}`}>{name}</Link>
+						<Link href="#">{name}</Link>
 					</h5>
 					<span className="sub-title">{desig}</span>
 				</div>
@@ -21,28 +21,28 @@ const TeamCard5 = ({ teamMember }) => {
 					<ul>
 						{social?.linkedin_url && (
 							<li>
-								<Link href={social.linkedin_url}>
+								<Link href="#">
 									<i className="fa-brands fa-linkedin-in"></i>
 								</Link>
 							</li>
 						)}
 						{social?.twitter_url && (
 							<li>
-								<Link href={social.twitter_url}>
+								<Link href="#">
 									<i className="fa-brands fa-twitter"></i>
 								</Link>
 							</li>
 						)}
 						{social?.instagram_url && (
 							<li>
-								<Link href={social.instagram_url}>
+								<Link href="#">
 									<i className="fa-brands fa-instagram"></i>
 								</Link>
 							</li>
 						)}
 						{social?.facebook_url && (
 							<li>
-								<Link href={social.facebook_url}>
+								<Link href="#">
 									<i className="fa-brands fa-facebook-f"></i>
 								</Link>
 							</li>

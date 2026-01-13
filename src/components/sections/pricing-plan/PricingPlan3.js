@@ -114,7 +114,7 @@ const PricingPlan3 = () => {
 											</ul>
 
 											<div className="buttons">
-												<ButtonPrimary text={"Get Started"} url={"/contact"} />
+												<ButtonPrimary text={"Get Started"} url={"#"} />
 											</div>
 										</div>
 									))}

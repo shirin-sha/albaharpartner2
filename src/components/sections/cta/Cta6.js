@@ -27,7 +27,7 @@ const Cta6 = () => {
 								<div className="video-btn-wrap">
 									<Link
 										className="video-btn"
-										href="/case-studies"
+										href="#"
 									>
 										<span className="video-text">Explore Case Studies</span>
 									</Link>

@@ -39,22 +39,22 @@ const MobileMenu = ({ isMobileMenuOpen, handleMobileToggler }) => {
 							<div className="contact_item">
 								<span className="subtitle">Email</span>
 								<div className="text">
-									<Link className="link" href="mailto:support@solvior.com">
-										support@solvior.com
+									<Link className="link" href="mailto:info@albaharandpartners.com">
+										info@albaharandpartners.com
 									</Link>
 								</div>
 							</div>
 							<div className="contact_item">
 								<span className="subtitle">Phone</span>
 								<div className="text">
-									<Link className="link" href="tel:000123456789">
-										(000) 123 456 789
+									<Link className="link" href="tel:+96522222222">
+										+965 222 222 22
 									</Link>
 								</div>
 							</div>
 							<div className="contact_item">
 								<span className="subtitle">Location</span>
-								<div className="text">Santa, United State</div>
+								<div className="text">Shuwaikh / Kuwait City</div>
 							</div>
 						</div>
 					</div>

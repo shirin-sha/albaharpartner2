@@ -10,14 +10,14 @@ const PortfolioCard8 = ({ portfolio, idx }) => {
 					src={img4 ? img4 : "/images/project/h8-project-1.webp"}
 					alt="Images"
 				/>
-				<Link className="icon-btn" href={`/portfolios/${id}`}>
+				<Link className="icon-btn" href="#">
 					<i className="tji-arrow-right"></i>
 				</Link>
 			</div>
 			<div className="case-study-content h8-case-study-content">
 				<div className="case-study-text">
 					<h4 className="title">
-						<Link href={`/portfolios/${id}`}>{title}</Link>
+						<Link href="#">{title}</Link>
 					</h4>
 				</div>
 				<div className="h8-case-study-category">
@@ -26,7 +26,7 @@ const PortfolioCard8 = ({ portfolio, idx }) => {
 							? tags?.map((tag, idx) => (
 									<li key={100 + idx}>
 										{" "}
-										<Link href={`/portfolios`}>{tag}</Link>
+										<Link href="#">{tag}</Link>
 									</li>
 							  ))
 							: ""}
