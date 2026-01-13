@@ -4,11 +4,10 @@
 
 .h8-hero {
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 	&-inner {
 		min-height: 100vh;
-		display: flex;
-		align-items: center;
+		position: relative;
 		&::before {
 			display: none;
 		}
@@ -18,27 +17,30 @@
 		.h8-hero {
 			&-content {
 				max-width: 984px;
+				padding-top: 350px;
 				padding-bottom: 300px;
 
 				@media #{$xl} {
 					max-width: 850px;
+					padding-top: 240px;
 				}
 				@media #{$lg} {
 					max-width: 800px;
+					padding-top: 230px;
 				}
 				@media #{$md} {
 					padding-bottom: 244px;
-					padding-top: 218px;
+					padding-top: 250px;
 					max-width: 660px;
 				}
 				@media #{$sm} {
 					padding-bottom: 240px;
-					padding-top: 127px;
+					padding-top: 180px;
 					max-width: 465px;
 				}
 				@media #{$xs} {
 					padding-bottom: 250px;
-					padding-top: 127px;
+					padding-top: 150px;
 					max-width: 350px;
 				}
 			}
