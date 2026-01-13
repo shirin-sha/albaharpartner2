@@ -7,7 +7,7 @@ const Hero8 = () => {
 		<section className=" h8-hero style-1">
 			<div
 				className="tj-slider-section h8-hero-inner"
-				style={{ backgroundImage: "url('/images/hero/h8-hero-bg.webp')" }}
+				style={{ backgroundImage: "url('/images/hero/hero.png')" }}
 			>
 				<div className="container" style={{ maxWidth: "1400px" }}>
 					<div className="row">
