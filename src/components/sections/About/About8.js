@@ -59,7 +59,7 @@ const About8 = () => {
 								className="about-images-group-three h8-about-banner hover:shine wow fadeInUp"
 								data-wow-delay="0.1s"
 							>
-								<img src="/images/about/h8-about-1.webp" alt="Images" />
+								<img src="/images/about/about-1.png" alt="Images" />
 								<div className="h8-about-float-area">
 									<div className="client-experience h8-about-client-experience">
 										<ul className="images-thumb">
