@@ -18,11 +18,11 @@ const Logo = ({ headerType, isStickyHeader }) => {
 							? "secondary-logo.png"
 							: headerType === 9
 							? "secondary-logo.png"
-							: "primary-logo.png"
+							: "logo.svg"
 					}`}
 					alt="logo"
-					height={37}
-					width={150}
+					height={80}
+					width={200}
 				/>
 			</Link>
 		</div>
