@@ -42,6 +42,14 @@
 	&:has(.mega-menu) {
 		position: static;
 	}
+	&:has(.mega-menu-service) {
+		position: static;
+		&:hover {
+			> .mega-menu-service {
+				top: 100% !important;
+			}
+		}
+	}
 	> .mega-menu {
 		max-width: 1920px;
 		width: 100%;
@@ -207,11 +215,14 @@
 
 	> .mega-menu-service {
 		width: 346px;
+		position: absolute;
 		margin-inline-start: -25px;
+		top: 100% !important;
 		padding: 15px 0;
 		@media #{$md, $sm, $xs} {
 			width: 100%;
 			margin-inline-start: 0;
+			top: 100% !important;
 		}
 		&::before {
 			display: none;
