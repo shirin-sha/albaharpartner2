@@ -49,10 +49,11 @@
 					&.current-menu-item,
 					&.current-menu-ancestor {
 						> a {
-							color: var(--tj-color-theme-primary);
+							color: #802fa2;
 
 							&::before {
 								width: 100%;
+								background-color: #802fa2;
 							}
 						}
 					}
