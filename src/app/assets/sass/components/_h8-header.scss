@@ -5,6 +5,9 @@
 // header 7 css
 .tj-header-area {
 	&.header-8 {
+		&.header-absolute {
+			border-bottom: 1px solid rgba(247, 247, 247, 0.3);
+		}
 		.mainmenu {
 			> ul {
 				gap: 45px;
