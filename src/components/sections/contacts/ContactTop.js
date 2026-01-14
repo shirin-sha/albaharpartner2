@@ -81,7 +81,7 @@ const ContactTop = () => {
 									</Link>
 								</li>
 								<li className="active">
-									<Link href="/contact">Need help?</Link>
+									<Link href="#">Need help?</Link>
 								</li>
 							</ul>
 						</div>

@@ -48,7 +48,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						solutionsNav?.isActive ? "current-menu-ancestor" : ""
 					}`}
 				>
-					<Link href="javascript:void(0)">{solutionsNav?.name}</Link>
+					<Link href="#">{solutionsNav?.name}</Link>
 					<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
 						<li>
 							<div className="mega-menu-wrapper">
@@ -116,7 +116,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 											<div className="cta-btn">
 												<ButtonPrimary
 													text={"Get in touch"}
-													url={"/contact"}
+													url={"#"}
 													className={"white-btn"}
 												/>
 												<Image

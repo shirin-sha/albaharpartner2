@@ -163,7 +163,7 @@ const MobileNavbar = () => {
 													<div className="cta-btn">
 														<ButtonPrimary
 															text={"Get in touch"}
-															url={"/contact"}
+															url={"#"}
 															className={"white-btn"}
 														/>
 
